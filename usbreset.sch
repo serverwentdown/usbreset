@@ -19,7 +19,7 @@ U 1 1 5F157FC7
 P 1400 5600
 F 0 "J2" H 1507 6867 50  0000 C CNN
 F 1 "USB_C_PowerSink" H 1507 6776 50  0000 C CNN
-F 2 "usbreset:10137065" H 1550 5600 50  0001 C CNN
+F 2 "Connector_USB-Custom:USB_C_Receptacle_Amphenol_10137065" H 1550 5600 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Tyco%20Electonics%20AMP%20PDFs/2129691_Dwg.pdf" H 1550 5600 50  0001 C CNN
 F 4 "https://sg.element14.com/te-connectivity/2129691-1/usb-3-1-type-c-24pos-rcpt-smt/dp/2518075" H 1400 5600 50  0001 C CNN "Buy_E14"
 	1    1400 5600
@@ -111,7 +111,7 @@ U 1 1 5F1528AF
 P 1400 2100
 F 0 "J1" H 1507 3367 50  0000 C CNN
 F 1 "USB_C_PowerSource" H 1507 3276 50  0000 C CNN
-F 2 "usbreset:10137065" H 1550 2100 50  0001 C CNN
+F 2 "Connector_USB-Custom:USB_C_Receptacle_Amphenol_10137065" H 1550 2100 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Tyco%20Electonics%20AMP%20PDFs/2129691_Dwg.pdf" H 1550 2100 50  0001 C CNN
 F 4 "https://sg.element14.com/te-connectivity/2129691-1/usb-3-1-type-c-24pos-rcpt-smt/dp/2518075" H 1400 2100 50  0001 C CNN "Buy_E14"
 	1    1400 2100
@@ -333,7 +333,7 @@ U 1 1 5FD401C4
 P 5200 4000
 F 0 "SW1" H 5200 4235 50  0000 C CNN
 F 1 "EN_USBA" H 5200 4144 50  0000 C CNN
-F 2 "usbreset:MSS3-V-T_R" H 5200 4000 50  0001 C CNN
+F 2 "Button_Switch_SMD-Custom:SW_SPDT_MSS3-V-T_R" H 5200 4000 50  0001 C CNN
 F 3 "~" H 5200 4000 50  0001 C CNN
 	1    5200 4000
 	1    0    0    -1  
@@ -393,7 +393,7 @@ U 1 1 5FD908A9
 P 5500 5350
 F 0 "J4" H 5557 6067 50  0000 C CNN
 F 1 "USB3_A_Receptacle" H 5557 5976 50  0000 C CNN
-F 2 "usbreset:10117835" H 5650 5450 50  0001 C CNN
+F 2 "Connector_USB-Custom:USB_A_Receptacle_Amphenol_10117835" H 5650 5450 50  0001 C CNN
 F 3 "~" H 5650 5450 50  0001 C CNN
 	1    5500 5350
 	1    0    0    -1  
