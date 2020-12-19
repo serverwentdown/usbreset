@@ -25,86 +25,6 @@ F 4 "https://sg.element14.com/te-connectivity/2129691-1/usb-3-1-type-c-24pos-rcp
 	1    1400 5600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4950 4800 2000 4800
-Wire Wire Line
-	4900 1400 4900 4900
-Wire Wire Line
-	4900 4900 2000 4900
-Wire Wire Line
-	4850 5100 2000 5100
-Wire Wire Line
-	4800 1700 4800 5200
-Wire Wire Line
-	4800 5200 2000 5200
-Wire Wire Line
-	4750 5300 2000 5300
-Wire Wire Line
-	4700 5400 2000 5400
-Wire Wire Line
-	4650 2100 4650 2850
-Wire Wire Line
-	4650 5600 2000 5600
-Wire Wire Line
-	4600 2200 4600 2900
-Wire Wire Line
-	4600 5700 2000 5700
-Wire Wire Line
-	2000 2400 4550 2400
-Wire Wire Line
-	4550 2400 4550 2950
-Wire Wire Line
-	4550 5900 2000 5900
-Wire Wire Line
-	2000 2500 4500 2500
-Wire Wire Line
-	4500 2500 4500 3000
-Wire Wire Line
-	4500 6000 2000 6000
-Wire Wire Line
-	2050 2700 4450 2700
-Wire Wire Line
-	4450 6200 2000 6200
-Wire Wire Line
-	2000 2800 4400 2800
-Wire Wire Line
-	4400 2800 4400 6300
-Wire Wire Line
-	4400 6300 2000 6300
-Wire Wire Line
-	2000 3000 4350 3000
-Wire Wire Line
-	4350 3000 4350 6500
-Wire Wire Line
-	4350 6500 2000 6500
-Wire Wire Line
-	2000 3100 4300 3100
-Wire Wire Line
-	4300 3100 4300 6600
-Wire Wire Line
-	4300 6600 2000 6600
-Wire Wire Line
-	2000 3300 4250 3300
-Wire Wire Line
-	4250 3300 4250 6800
-Wire Wire Line
-	4250 6800 2000 6800
-Wire Wire Line
-	4700 1900 4700 5400
-Wire Wire Line
-	2000 2200 4600 2200
-Wire Wire Line
-	2000 2100 4650 2100
-Wire Wire Line
-	2000 1900 4700 1900
-Wire Wire Line
-	2000 1800 4750 1800
-Wire Wire Line
-	2000 1700 4800 1700
-Wire Wire Line
-	2000 1600 4850 1600
-Wire Wire Line
-	2000 1400 4900 1400
 $Comp
 L Connector:USB_C_Receptacle J1
 U 1 1 5F1528AF
@@ -166,14 +86,6 @@ Wire Wire Line
 	1400 4000 1400 3700
 Wire Wire Line
 	1100 3700 1100 4000
-Wire Wire Line
-	4200 6900 2000 6900
-Wire Wire Line
-	2000 3400 4200 3400
-Wire Wire Line
-	4200 3400 4200 6900
-Wire Wire Line
-	4450 2700 4450 6200
 Text Notes 9550 1250 0    50   ~ 0
 Current flows from VBUS to VBUS_SINK
 Text Notes 8700 2350 0    50   ~ 0
@@ -325,8 +237,6 @@ F 3 "" H 8250 2500 50  0001 C CNN
 	1    8250 2500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2000 1300 4950 1300
 $Comp
 L Switch:SW_SPST SW1
 U 1 1 5FD401C4
@@ -379,12 +289,6 @@ F 3 "" H 5800 4000 50  0001 C CNN
 	1    5800 4000
 	1    0    0    -1  
 $EndComp
-Connection ~ 4750 4550
-Wire Wire Line
-	4750 4550 4750 5300
-Connection ~ 4850 4500
-Wire Wire Line
-	4850 4500 4850 5100
 Text Label 6000 4950 0    50   ~ 0
 VBUS_SINK
 $Comp
@@ -440,118 +344,7 @@ F 3 "" H 6000 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6200 4550 6200 5250
-Wire Wire Line
-	6200 5250 6000 5250
-Wire Wire Line
-	6000 5150 6250 5150
-Wire Wire Line
-	6250 5150 6250 4500
-Wire Wire Line
-	4950 1300 4950 4000
-Wire Wire Line
 	4950 4000 5000 4000
-Connection ~ 4950 4000
-Wire Wire Line
-	4950 4000 4950 4800
-Wire Wire Line
-	4750 1800 4750 4550
-Wire Wire Line
-	4850 1600 4850 4500
-Wire Wire Line
-	4750 4550 6200 4550
-Wire Wire Line
-	4850 4500 6250 4500
-Wire Wire Line
-	4850 1600 4850 950 
-Wire Wire Line
-	4850 950  6250 950 
-Wire Wire Line
-	6250 950  6250 1650
-Wire Wire Line
-	6250 1650 6000 1650
-Connection ~ 4850 1600
-Wire Wire Line
-	4750 1800 4750 1000
-Wire Wire Line
-	4750 1000 6200 1000
-Wire Wire Line
-	6200 1000 6200 1750
-Wire Wire Line
-	6200 1750 6000 1750
-Connection ~ 4750 1800
-Wire Wire Line
-	6000 1950 6200 1950
-Wire Wire Line
-	6200 1950 6200 2850
-Wire Wire Line
-	6200 2850 4650 2850
-Connection ~ 4650 2850
-Wire Wire Line
-	6000 2050 6250 2050
-Wire Wire Line
-	6250 2050 6250 2900
-Wire Wire Line
-	6250 2900 4600 2900
-Connection ~ 4600 2900
-Wire Wire Line
-	6000 2250 6300 2250
-Wire Wire Line
-	6300 2250 6300 2950
-Wire Wire Line
-	6300 2950 4550 2950
-Connection ~ 4550 2950
-Wire Wire Line
-	6000 2350 6350 2350
-Wire Wire Line
-	6350 2350 6350 3000
-Wire Wire Line
-	6350 3000 4500 3000
-Connection ~ 4500 3000
-Wire Wire Line
-	4500 3000 4500 6000
-Wire Wire Line
-	6000 5450 6200 5450
-Wire Wire Line
-	6200 5450 6200 6350
-Wire Wire Line
-	6200 6350 4650 6350
-Wire Wire Line
-	4650 2850 4650 5600
-Connection ~ 4650 5600
-Wire Wire Line
-	4650 5600 4650 6350
-Wire Wire Line
-	6000 5550 6250 5550
-Wire Wire Line
-	6250 5550 6250 6400
-Wire Wire Line
-	6250 6400 4600 6400
-Wire Wire Line
-	4600 2900 4600 5700
-Connection ~ 4600 5700
-Wire Wire Line
-	4600 5700 4600 6400
-Wire Wire Line
-	6000 5750 6300 5750
-Wire Wire Line
-	6300 5750 6300 6450
-Wire Wire Line
-	6300 6450 4550 6450
-Wire Wire Line
-	4550 2950 4550 5900
-Connection ~ 4550 5900
-Wire Wire Line
-	4550 5900 4550 6450
-Wire Wire Line
-	6000 5850 6350 5850
-Wire Wire Line
-	6350 5850 6350 6500
-Wire Wire Line
-	6350 6500 4500 6500
-Wire Wire Line
-	4500 6500 4500 6000
-Connection ~ 4500 6000
 $Comp
 L Switch:SW_Push SW3
 U 1 1 5FE36070
@@ -569,4 +362,118 @@ Connection ~ 7550 1750
 Wire Wire Line
 	7950 1750 7950 2250
 Connection ~ 7950 1750
+Text Label 2000 1300 0    50   ~ 0
+CC1
+Text Label 2000 1400 0    50   ~ 0
+CC2
+Text Label 2000 1600 0    50   ~ 0
+D-
+Text Label 2000 1700 0    50   ~ 0
+D-
+Text Label 2000 1800 0    50   ~ 0
+D+
+Text Label 2000 1900 0    50   ~ 0
+D+
+Text Label 2000 2100 0    50   ~ 0
+RX1-
+Text Label 2000 2200 0    50   ~ 0
+RX1+
+Text Label 2000 2400 0    50   ~ 0
+TX1-
+Text Label 2000 2500 0    50   ~ 0
+TX1+
+Text Label 2000 2700 0    50   ~ 0
+RX2-
+Text Label 2000 2800 0    50   ~ 0
+RX2+
+Text Label 2000 3000 0    50   ~ 0
+TX2-
+Text Label 2000 3100 0    50   ~ 0
+TX2+
+Text Label 2000 3300 0    50   ~ 0
+SBU1
+Text Label 2000 3400 0    50   ~ 0
+SBU2
+Text Label 6000 1650 0    50   ~ 0
+D-
+Text Label 6000 5150 0    50   ~ 0
+D-
+Text Label 6000 5250 0    50   ~ 0
+D+
+Text Label 2000 4800 0    50   ~ 0
+CC2
+Text Label 2000 4900 0    50   ~ 0
+CC1
+Text Label 2000 5100 0    50   ~ 0
+D-
+Text Label 2000 5200 0    50   ~ 0
+D-
+Text Label 2000 5300 0    50   ~ 0
+D+
+Text Label 2000 5400 0    50   ~ 0
+D+
+Text Label 2000 5600 0    50   ~ 0
+RX2-
+Text Label 2000 5700 0    50   ~ 0
+RX2+
+Text Label 2000 6200 0    50   ~ 0
+RX1-
+Text Label 2000 6300 0    50   ~ 0
+RX1+
+Text Label 2000 5900 0    50   ~ 0
+TX2-
+Text Label 2000 6000 0    50   ~ 0
+TX2+
+Text Label 2000 6600 0    50   ~ 0
+TX1+
+Text Label 2000 6500 0    50   ~ 0
+TX1-
+Text Label 2000 6800 0    50   ~ 0
+SBU2
+Text Label 2000 6900 0    50   ~ 0
+SBU1
+Text Label 6000 2350 0    50   ~ 0
+TX1+
+Text Label 6000 2250 0    50   ~ 0
+TX1-
+Text Label 6000 2050 0    50   ~ 0
+RX1+
+Text Label 6000 1950 0    50   ~ 0
+RX1-
+Text Label 6000 1750 0    50   ~ 0
+D+
+Text Label 6000 5850 0    50   ~ 0
+TX1+
+Text Label 6000 5750 0    50   ~ 0
+TX1-
+Text Label 6000 5550 0    50   ~ 0
+RX1+
+Text Label 6000 5450 0    50   ~ 0
+RX1-
+Text Label 4950 4000 2    50   ~ 0
+CC1
+$Comp
+L Device:R R5
+U 1 1 5FEEB297
+P 6750 4000
+F 0 "R5" H 6820 4046 50  0000 L CNN
+F 1 "0" H 6820 3955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6680 4000 50  0001 C CNN
+F 3 "~" H 6750 4000 50  0001 C CNN
+	1    6750 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0111
+U 1 1 5FEEC5F3
+P 6750 4150
+F 0 "#PWR0111" H 6750 3900 50  0001 C CNN
+F 1 "GND" H 6755 3977 50  0000 C CNN
+F 2 "" H 6750 4150 50  0001 C CNN
+F 3 "" H 6750 4150 50  0001 C CNN
+	1    6750 4150
+	1    0    0    -1  
+$EndComp
+Text GLabel 6750 3850 0    50   Input ~ 0
+SHIELD
 $EndSCHEMATC

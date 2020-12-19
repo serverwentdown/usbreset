@@ -1,4 +1,4 @@
-update=Mon 14 Dec 2020 12:26:38 AM
+update=Sat 19 Dec 2020 05:34:48 PM
 version=1
 last_client=kicad
 [general]
@@ -237,7 +237,7 @@ Enabled=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default
-Clearance=0.16
+Clearance=0.1524
 TrackWidth=0.1524
 ViaDiameter=0.381
 ViaDrill=0.254
@@ -250,6 +250,17 @@ dPairViaGap=0.25
 Name=Power
 Clearance=0.16
 TrackWidth=0.2032
+ViaDiameter=0.508
+ViaDrill=0.3302
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/2]
+Name=Shield
+Clearance=0.16
+TrackWidth=0.254
 ViaDiameter=0.508
 ViaDrill=0.3302
 uViaDiameter=0.3
