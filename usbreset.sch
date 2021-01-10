@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:USB_C_Receptacle J2
+L usbreset-rescue:USB_C_Receptacle-Connector J2
 U 1 1 5F157FC7
 P 1400 5600
 F 0 "J2" H 1507 6867 50  0000 C CNN
@@ -26,7 +26,7 @@ F 4 "https://sg.element14.com/te-connectivity/2129691-1/usb-3-1-type-c-24pos-rcp
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:USB_C_Receptacle J1
+L usbreset-rescue:USB_C_Receptacle-Connector J1
 U 1 1 5F1528AF
 P 1400 2100
 F 0 "J1" H 1507 3367 50  0000 C CNN
@@ -292,7 +292,7 @@ $EndComp
 Text Label 6000 4950 0    50   ~ 0
 VBUS_SINK
 $Comp
-L Connector:USB3_A J4
+L usbreset-rescue:USB3_A-Connector J4
 U 1 1 5FD908A9
 P 5500 5350
 F 0 "J4" H 5557 6067 50  0000 C CNN
@@ -319,7 +319,7 @@ $EndComp
 Text GLabel 5300 2550 0    50   Input ~ 0
 SHIELD
 $Comp
-L Connector:USB3_A J3
+L usbreset-rescue:USB3_A-Connector J3
 U 1 1 5FDACC9B
 P 5500 1850
 F 0 "J3" H 5557 2567 50  0000 C CNN
